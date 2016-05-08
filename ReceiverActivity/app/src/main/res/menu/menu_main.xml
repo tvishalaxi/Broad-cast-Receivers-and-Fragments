@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.vishalaxi.receiveractivity.MainActivity">
+    <item
+        android:id="@+id/action_chicago"
+        android:orderInCategory="100"
+        android:title="@string/chicago"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_indianapolis"
+        android:orderInCategory="100"
+        android:title="@string/indianapolis"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.project.vishalaxi.senderactivity.SenderActivity"
+    tools:showIn="@layout/activity_sender"
+    android:weightSum="1">
+
+    <TextView
+        android:paddingBottom="@dimen/pad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Click the button &apos;Explore Chicago&apos; to obtain information about the city of Chicago, Illinois"
+        android:id="@+id/textView"
+         />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore Chicago"
+        android:id="@+id/button_c"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:paddingTop="@dimen/pad"
+        android:paddingBottom="@dimen/pad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Click the button &apos;Explore Indianapolis&apos; to obtain information about the city of Indianapolis"
+        android:id="@+id/textView2"/>
+
+    <Button
+        android:paddingTop="@dimen/pad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore Indianapolis"
+        android:id="@+id/button_i"
+        android:textStyle="bold"/>
+
+</LinearLayout>

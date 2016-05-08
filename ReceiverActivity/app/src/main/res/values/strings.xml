@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Receiver Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="chicago">Chicago</string>
+    <string name="indianapolis">Indianapolis</string>
+    <string-array name="ChicagoTitles">
+        <item> Art Institute of Chicago  		</item>
+        <item> Millennium Park				    </item>
+        <item> The Magnificent Mile 			</item>
+        <item> Navy Pier						</item>
+        <item> Chicago Shakespeare Theater	    </item>
+        <item> Museum of Science and Industry	</item>
+        <item> Field Museum 					</item>
+        <item> Lyric Opera of Chicago			</item>
+        <item> Willis Tower SkyDeck 			</item>
+        <item> Garfield Park Conservatory 	    </item>
+        <item> John Hancock Center			    </item>
+        <item> Lincoln Park			            </item>
+    </string-array>
+
+    <string-array name="ChicagoLinks">
+        <item>http://www.artic.edu/															</item>
+        <item>http://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html </item>
+        <item>http://www.themagnificentmile.com/                                            </item>
+        <item>https://navypier.com/                                                         </item>
+        <item>https://www.chicagoshakes.com/                                                </item>
+        <item>http://www.msichicago.org/                                                    </item>
+        <item>https://www.fieldmuseum.org/                                                  </item>
+        <item>https://www.lyricopera.org/                                                   </item>
+        <item>http://theskydeck.com/                                                        </item>
+        <item>http://www.garfieldconservatory.org/                                          </item>
+        <item>http://www.johnhancockcenterchicago.com/                                      </item>
+        <item>http://www.chicagoparkdistrict.com/parks/lincoln-park/                        </item>
+    </string-array>
+
+    <string-array name="IndTitles">
+        <item>Indianapolis Museum of Art				</item>
+        <item>Indianapolis Motor Speedway			    </item>
+        <item>Eagle Creek Park and Nature Preserve	    </item>
+        <item>White River State Park					</item>
+        <item>Indianapolis Zoo	                        </item>
+    </string-array>
+
+    <string-array name="IndLinks">
+        <item>http://www.imamuseum.org/								</item>
+        <item>http://www.indianapolismotorspeedway.com/             </item>
+        <item>http://eaglecreekpark.org/                            </item>
+        <item>http://www.inwhiteriver.com/                          </item>
+        <item>http://www.indianapoliszoo.com/SitePages/Home.aspx    </item>
+    </string-array>
+
+</resources>
